@@ -2,27 +2,50 @@ package PageObjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.awt.*;
+import java.awt.datatransfer.DataFlavor;
+import java.awt.datatransfer.UnsupportedFlavorException;
+import java.io.IOException;
+import java.util.List;
+import java.util.Set;
 
 public class SearchResultsPage  extends BasePage{
 
     private WebDriverWait wait;
 
-//    private By listArticle = By.cssSelector("div.content>section>article>div>div:nth-child(2)>div");
-    private By coupon = By.cssSelector("div>a[data-func='showCode']");
-    private By couponCode = By.cssSelector("div>span[class='coupon-code']");
+    private By couponCodeListLocator = By.cssSelector("div[class='deal-desc']>.cr");
+    private By copyButtonLocator = By.cssSelector("button[id='copy-button']");
 
     public SearchResultsPage (WebDriver driver) {
         super(driver);
-        wait = new WebDriverWait(driver, 12);
+        wait = new WebDriverWait(driver, 15);
     }
 
-
-    public SearchResultsPage sayHello() {
-        System.out.println("Hello");
+    public SearchResultsPage goTo(String url) {
+        driver.navigate().to(url);
         return new SearchResultsPage(driver);
     }
 
+    public SearchResultsPage findCoupons() throws IOException, UnsupportedFlavorException {
+        List<WebElement> listCoupon = driver.findElements(couponCodeListLocator);
+        listCoupon.get(0).click();
+        changeTab();
+        driver.findElement(copyButtonLocator).click();
+        String myText = (String) Toolkit.getDefaultToolkit().getSystemClipboard().getData(DataFlavor.stringFlavor); // extracting the text that was copied to the clipboard
+        System.out.println(myText);
+        return this;
+    }
+
+    private void changeTab() {
+        Set<String> windows = driver.getWindowHandles();
+        String parentWindow = driver.getWindowHandle();
+        windows.remove(parentWindow);
+        String secondWindow = windows.iterator().next();
+        driver.switchTo().window(secondWindow);
+    }
 
 
 

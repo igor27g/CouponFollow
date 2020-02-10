@@ -1,18 +1,19 @@
 package Tests;
 
 import PageObjects.HomePage;
+import PageObjects.SearchResultsPage;
 import org.junit.jupiter.api.Test;
+
+import java.awt.datatransfer.UnsupportedFlavorException;
+import java.io.IOException;
 
 public class SearchTest extends BaseTest {
 
-    String url = "https://couponfollow.com/";
     String brandName = "domino's Pizza";
 
-
     @Test
-    public void findCouponBrandUsingSearch() {
-        HomePage homePage = new HomePage(driver).goTo(url).writeBrandInSearch(brandName);
+    public void findCouponBrandUsingSearch() throws IOException, UnsupportedFlavorException {
+       HomePage homePage = new HomePage(driver).goTo(configuration.getBaseUrl());
+       SearchResultsPage searchResultsPage = homePage.writeBrandInSearch(configuration.getBrandName()).findCoupons();
     }
-
-//    HomePage homePage = new HomePage(driver)
 }

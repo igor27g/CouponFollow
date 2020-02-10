@@ -1,8 +1,8 @@
 
 Ksquid:S1068"(Remove this unused "wait" private field.(íÒá§ùÿÿÿÿ8õš«.
-Qsquid:S1068".Remove this unused "couponCode" private field.(ÊÍ¬ûÿÿÿÿ8õš«.
-isquid:CommentedOutCodeLine#"<This block of commented-out lines of code should be removed.(í±àé8”Á§«.
-wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–á‹Ãşÿÿÿÿ
 nsquid:CommentedOutCodeLine4"<This block of commented-out lines of code should be removed.(óÆÊóÿÿÿÿÿ8¡‚ «.
+isquid:CommentedOutCodeLine#"<This block of commented-out lines of code should be removed.(í±àé8”Á§«.
+Qsquid:S1068".Remove this unused "couponCode" private field.(ÊÍ¬ûÿÿÿÿ8õš«.
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–á‹Ãşÿÿÿÿ
 Hsquid:S1068"*Remove this unused "coupon" private field.(µö»8³“¨.
 isquid:CommentedOutCodeLine7"<This block of commented-out lines of code should be removed.(‚ç»8¡‚ «.

@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3603391-dfbf-487d-86d7-ab9e1e78edd3" name="Default Changelist" comment="" />
+    <list default="true" id="f3603391-dfbf-487d-86d7-ab9e1e78edd3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/Brand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/FileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/TestDataReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestData.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/9/2965e3ce0679043c79a6ab1e15aa467d798047ba" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/9/2965e3ce0679043c79a6ab1e15aa467d798047ba" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/6/d652ec8a20c02a6462ab0b694fe85436b3f65118" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/6/d652ec8a20c02a6462ab0b694fe85436b3f65118" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/eecc3776fc69c201e1cbc3d804cfbec0db4b12d7" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/eecc3776fc69c201e1cbc3d804cfbec0db4b12d7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/configs/Configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/configs/Configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/SearchResultsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/SearchResultsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/ConfigurationReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/ConfigurationReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/SearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PageObjects/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PageObjects/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PageObjects/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PageObjects/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PageObjects/SearchResultsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PageObjects/SearchResultsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utils/ConfigurationReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utils/ConfigurationReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/SearchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/SearchTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,28 +38,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/BasePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="323">
+              <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -45,44 +49,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Tests/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+            <state relative-caret-position="-85">
+              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Tests/SearchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Drivers/Browser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/configs/Configuration.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Drivers/DriverFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="37" />
+            <state relative-caret-position="272">
+              <caret line="16" column="117" lean-forward="true" selection-start-line="16" selection-start-column="117" selection-end-line="16" selection-end-column="117" />
             </state>
           </provider>
         </entry>
@@ -90,8 +67,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Utils/ConfigurationReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+            <state relative-caret-position="153">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/configs/Configuration.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestData.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="32" selection-start-column="32" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Utils/TestDataReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Utils/Brand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -99,8 +112,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/SearchResultsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="11" column="70" selection-start-line="11" selection-end-line="12" selection-end-column="76" />
+            <state relative-caret-position="241">
+              <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Utils/FileReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -114,18 +136,26 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/configs/Configuration.properties" />
         <option value="$PROJECT_DIR$/src/main/java/Drivers/Browser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PageObjects/BasePage.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/Tests/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Drivers/DriverFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PageObjects/BasePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/PageObjects/SearchResultsPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Tests/SearchTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Utils/FileReader.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Tests/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Utils/Brand.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestData.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/Utils/TestDataReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/PageObjects/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/configs/Configuration.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/Utils/ConfigurationReader.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Tests/SearchTest.java" />
       </list>
     </option>
   </component>
@@ -137,10 +167,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1911" />
+    <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1938" />
-    <option name="height" value="1170" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -148,7 +178,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,6 +189,12 @@
               <item name="CouponCV" type="b2602c69:ProjectViewProjectNode" />
               <item name="CouponCV" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CouponCV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CouponCV" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="configs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CouponCV" type="b2602c69:ProjectViewProjectNode" />
@@ -219,14 +254,20 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Tests" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CouponCV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CouponCV" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580914442771" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581370374876" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -249,7 +290,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SearchTest">
+  <component name="RunManager" selected="JUnit.SearchTest.findCouponBrandUsingSearch">
     <configuration name="SearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CouponCV" />
       <extension name="coverage">
@@ -282,8 +323,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SearchTest" />
         <item itemvalue="JUnit.SearchTest.findCouponBrandUsingSearch" />
+        <item itemvalue="JUnit.SearchTest" />
       </list>
     </recent_temporary>
   </component>
@@ -301,42 +342,43 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SearchTest_findCouponBrandUsingSearch - 2020.02.05 at 11h 50m 38s.xml">
+    <history-entry file="SearchTest_findCouponBrandUsingSearch - 2020.02.10 at 21h 52m 27s.xml">
       <configuration name="SearchTest.findCouponBrandUsingSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SearchTest_findCouponBrandUsingSearch - 2020.02.05 at 11h 52m 08s.xml">
+    <history-entry file="SearchTest_findCouponBrandUsingSearch - 2020.02.10 at 21h 52m 37s.xml">
       <configuration name="SearchTest.findCouponBrandUsingSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SearchTest - 2020.02.05 at 12h 00m 08s.xml">
-      <configuration name="SearchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SearchTest_findCouponBrandUsingSearch - 2020.02.05 at 12h 01m 30s.xml">
+    <history-entry file="SearchTest_findCouponBrandUsingSearch - 2020.02.10 at 21h 53m 19s.xml">
       <configuration name="SearchTest.findCouponBrandUsingSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SearchTest_findCouponBrandUsingSearch - 2020.02.05 at 12h 05m 27s.xml">
+    <history-entry file="SearchTest_findCouponBrandUsingSearch - 2020.02.10 at 21h 55m 29s.xml">
       <configuration name="SearchTest.findCouponBrandUsingSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SearchTest_findCouponBrandUsingSearch - 2020.02.05 at 13h 48m 22s.xml">
+    <history-entry file="SearchTest_findCouponBrandUsingSearch - 2020.02.10 at 21h 56m 19s.xml">
       <configuration name="SearchTest.findCouponBrandUsingSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SearchTest - 2020.02.05 at 13h 48m 50s.xml">
+    <history-entry file="SearchTest_findCouponBrandUsingSearch - 2020.02.10 at 21h 56m 35s.xml">
+      <configuration name="SearchTest.findCouponBrandUsingSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchTest_findCouponBrandUsingSearch - 2020.02.10 at 21h 56m 50s.xml">
+      <configuration name="SearchTest.findCouponBrandUsingSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchTest_findCouponBrandUsingSearch - 2020.02.10 at 22h 05m 11s.xml">
+      <configuration name="SearchTest.findCouponBrandUsingSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchTest - 2020.02.10 at 22h 05m 32s.xml">
       <configuration name="SearchTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SearchTest - 2020.02.05 at 13h 49m 25s.xml">
-      <configuration name="SearchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SearchTest - 2020.02.05 at 13h 52m 33s.xml">
-      <configuration name="SearchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SearchTest - 2020.02.05 at 13h 55m 05s.xml">
-      <configuration name="SearchTest" configurationId="JUnit" />
+    <history-entry file="SearchTest_findCouponBrandUsingSearch - 2020.02.10 at 22h 07m 51s.xml">
+      <configuration name="SearchTest.findCouponBrandUsingSearch" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1911" y="-9" width="1938" height="1170" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="840" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20095949" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979592" visible="true" weight="0.25838926" />
+      <window_info id="Structure" order="1" sideWeight="0.5020408" side_tool="true" weight="0.25838926" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -344,8 +386,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.324587" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.19339164" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3079096" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.31920904" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -353,7 +395,7 @@
       <window_info anchor="bottom" id="SonarLint" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.324587" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32344633" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -363,51 +405,44 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979592" visible="true" weight="0.25838926" />
+      <window_info id="Structure" order="1" sideWeight="0.5020408" side_tool="true" weight="0.25838926" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3079096" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="SonarLint" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32344633" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Tests/SearchTest.java</url>
-          <line>13</line>
+          <line>16</line>
           <properties />
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/PageObjects/HomePage.java</url>
-          <line>40</line>
-          <properties />
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/PageObjects/HomePage.java</url>
-          <line>52</line>
-          <properties />
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/PageObjects/HomePage.java</url>
-          <line>54</line>
-          <properties />
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/PageObjects/HomePage.java</url>
-          <line>34</line>
-          <properties />
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/PageObjects/HomePage.java</url>
-          <line>35</line>
-          <properties />
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/PageObjects/HomePage.java</url>
-          <line>32</line>
-          <properties />
-          <option name="timeStamp" value="32" />
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -421,10 +456,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/configs/Configuration.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Drivers/DriverFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        <state relative-caret-position="68">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -435,52 +470,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Drivers/DriverFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/ConfigurationReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/BaseTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/FileReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestData.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/SearchResultsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="11" column="70" selection-start-line="11" selection-end-line="12" selection-end-column="76" />
+        <state relative-caret-position="241">
+          <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/SearchTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/Brand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="323">
+          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/TestDataReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/configs/Configuration.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/ConfigurationReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/SearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="117" lean-forward="true" selection-start-line="16" selection-start-column="117" selection-end-line="16" selection-end-column="117" />
         </state>
       </provider>
     </entry>
