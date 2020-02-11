@@ -19,3 +19,13 @@ S
 #src/test/java/Tests/SearchTest.java,8\3\834940ed63fabba500775eaf81a10e631692a2a2
 W
 'src/main/java/PageObjects/HomePage.java,d\6\d652ec8a20c02a6462ab0b694fe85436b3f65118
+S
+#src/main/java/Utils/FileReader.java,8\d\8dce476087b5007d555c70d31ea8e27818786ab4
+Q
+!src/test/java/TestData.properties,f\1\f1a11c0ae83ad249b995f8e3a8d1cffa3992e1d6
+N
+src/main/java/Utils/Brand.java,3\0\3034633bbc3b51e469f422c393a9a5a1c9099e34
+W
+'src/main/java/Utils/TestDataReader.java,7\a\7a0ec72b5f8d9c44078ccbe7bd31cf5987258af5
+<
+CouponCV.iml,6\e\6e6382563701139cca3d91e3ade2d60546806636

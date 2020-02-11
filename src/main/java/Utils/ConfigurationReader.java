@@ -8,6 +8,7 @@ public class ConfigurationReader extends FileReader {
     private String baseUrl;
     private String browser;
     private String brandName;
+    private String couponCode;
 
     public ConfigurationReader(String configurationLocation) {
         super(configurationLocation);
@@ -19,6 +20,7 @@ public class ConfigurationReader extends FileReader {
         baseUrl = properties.getProperty("baseUrl");
         browser = properties.getProperty("browser");
         brandName = properties.getProperty("brandName");
+        couponCode = properties.getProperty("couponCode");
     }
 
     public String getBrowser() {
@@ -37,6 +39,9 @@ public class ConfigurationReader extends FileReader {
         return brandName;
     }
 
+    public String  getCouponCode() {
+        return couponCode;
+    }
     public String getConfigurationLocation() {
         return configurationLocation;
     }

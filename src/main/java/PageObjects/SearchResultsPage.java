@@ -21,7 +21,7 @@ public class SearchResultsPage  extends BasePage{
 
     public SearchResultsPage (WebDriver driver) {
         super(driver);
-        wait = new WebDriverWait(driver, 15);
+        wait = new WebDriverWait(driver, 20);
     }
 
     public SearchResultsPage goTo(String url) {
@@ -29,14 +29,13 @@ public class SearchResultsPage  extends BasePage{
         return new SearchResultsPage(driver);
     }
 
-    public SearchResultsPage findCoupons() throws IOException, UnsupportedFlavorException {
+    public int findCoupons() throws IOException, UnsupportedFlavorException {
         List<WebElement> listCoupon = driver.findElements(couponCodeListLocator);
         listCoupon.get(0).click();
         changeTab();
         driver.findElement(copyButtonLocator).click();
         String myText = (String) Toolkit.getDefaultToolkit().getSystemClipboard().getData(DataFlavor.stringFlavor); // extracting the text that was copied to the clipboard
-        System.out.println(myText);
-        return this;
+        return Integer.parseInt(myText);
     }
 
     private void changeTab() {

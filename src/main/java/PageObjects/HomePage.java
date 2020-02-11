@@ -16,7 +16,7 @@ public class HomePage extends  BasePage{
 
     public HomePage(WebDriver driver) {
         super(driver);
-        wait = new WebDriverWait(driver, 7);
+        wait = new WebDriverWait(driver, 9);
     }
 
     public HomePage goTo(String url) {
