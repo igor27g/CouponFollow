@@ -24,7 +24,7 @@ public class HomePage extends  BasePage{
         return new HomePage(driver);
     }
 
-    public SearchResultsPage writeBrandInSearch(String brandName) {
+    public SearchResultsPage findBrandInSearch(String brandName) {
         WebElement searchSelectorElement = driver.findElement(searchSelectLocator);
         slowType(searchSelectorElement, brandName);
         wait.until(ExpectedConditions.visibilityOfElementLocated(listResultLocator)).click();

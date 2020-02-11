@@ -13,7 +13,7 @@ public class SearchTest extends BaseTest {
     @Test
     public void findCouponBrandUsingSearch() throws IOException, UnsupportedFlavorException {
         HomePage homePage = new HomePage(driver).goTo(configuration.getBaseUrl());
-        int couponCode = homePage.writeBrandInSearch(brandName).findCoupons();
+        int couponCode = homePage.findBrandInSearch(brandName).findCouponsCode();
         assertEquals(Integer.parseInt(configuration.getCouponCode()), couponCode, "Wrong value of coupon code");
     }
 }

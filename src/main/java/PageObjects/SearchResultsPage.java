@@ -24,12 +24,7 @@ public class SearchResultsPage  extends BasePage{
         wait = new WebDriverWait(driver, 20);
     }
 
-    public SearchResultsPage goTo(String url) {
-        driver.navigate().to(url);
-        return new SearchResultsPage(driver);
-    }
-
-    public int findCoupons() throws IOException, UnsupportedFlavorException {
+    public int findCouponsCode() throws IOException, UnsupportedFlavorException {
         List<WebElement> listCoupon = driver.findElements(couponCodeListLocator);
         listCoupon.get(0).click();
         changeTab();
