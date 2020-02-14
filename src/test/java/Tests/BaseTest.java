@@ -1,14 +1,13 @@
 package Tests;
 
+import Drivers.DriverFactory;
 import Utils.ConfigurationReader;
 import Utils.TestDataReader;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.TestInstance;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.concurrent.TimeUnit;
 
@@ -29,8 +28,8 @@ public class BaseTest {
 
     @BeforeEach
     public void testSetUp() {
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
+        DriverFactory driverFactory = new DriverFactory();
+        driver = driverFactory.create(configuration);
         driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();
     }

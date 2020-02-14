@@ -14,6 +14,7 @@ public class SearchTest extends BaseTest {
     public void findCouponBrandUsingSearch() throws IOException, UnsupportedFlavorException {
         HomePage homePage = new HomePage(driver).goTo(configuration.getBaseUrl());
         int couponCode = homePage.findBrandInSearch(brandName).findCouponsCode();
+        System.out.println(couponCode);
         assertEquals(Integer.parseInt(configuration.getCouponCode()), couponCode, "Wrong value of coupon code");
     }
 }
